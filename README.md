@@ -1,1 +1,1 @@
-usage: https://rdrk.github.io/redirect-page/?redirect_to=v2raytun://import/SUB_ID
+usage: https://fannur.github.io/rdrk/?redirect_to=v2raytun://import/SUB_ID
