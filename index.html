@@ -109,8 +109,9 @@
         document.addEventListener('DOMContentLoaded', function () {
             const currentURL = window.location.href;
             let redirectTo = decodeURIComponent(currentURL.split('redirect_to=')[1] || '');
-            const language = navigator.language || navigator.userLanguage;
-            const isRussian = language.startsWith('ru');
+            //const language = navigator.language || navigator.userLanguage;
+            //const isRussian = language.startsWith('ru');
+            const isRussian = true
 
             const titleText = isRussian ? 'Продолжить' : 'Continue';
             const buttonText = isRussian ? 'Нажмите сюда, чтобы продолжить' : 'Click here to proceed';
